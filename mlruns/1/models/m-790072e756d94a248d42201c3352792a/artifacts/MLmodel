@@ -1,0 +1,24 @@
+artifact_path: file:C:/Users/Binia/OneDrive/Documents/Interview/jubii7-track-a/mlruns/1/models/m-790072e756d94a248d42201c3352792a/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.13.3
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types:
+    - invoice_ml.text_utils.normalize_text
+mlflow_version: 3.18.0
+model_id: m-790072e756d94a248d42201c3352792a
+model_size_bytes: 2065351
+model_uuid: m-790072e756d94a248d42201c3352792a
+prompts: null
+run_id: 46d69a842f0e44f3ad01863f0c8b38c5
+utc_time_created: '2026-11-25 11:36:15.818810'

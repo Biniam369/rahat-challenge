@@ -1,0 +1,27 @@
+﻿severity,field,issue,printed,expected
+high,line 3 (Washed sand).amount,"qty x price = 24 x 65.00 - same digits, looks like a transposition",1650.0,1560.0
+high,Site A - Foundation.subtotal,"Section subtotal wrong (adds up the printed lines, so the line error carried through)",14870.0,14780.0
+high,totals.total_before_discount,Wrong after recalculation (error carried from above),22630.0,22540.0
+high,totals.taxable_amount,Wrong after recalculation (error carried from above),22474.8,22384.8
+high,totals.vat_amount,Arithmetic error on the page: does not follow from the printed figures above it,1131.5,1123.74
+high,totals.grand_total,Wrong after recalculation (error carried from above),23606.3,23504.04
+high,amount_in_words,"Words say 23,660.30 but the figure says 23,606.30 - same digits, looks like a transposition",23660.3,23504.04
+high,delivery D3.planned_date,Invalid calendar date,31/11/2026,
+high,terms,"English terms say 45 days, Arabic terms say 30 days",45 / 30,
+medium,document.payment,"2 payment methods ticked (Cash, Credit) - Cash and Credit contradict each other","['Cash', 'Credit']",
+medium,line 5 (Waterproofing membrane).qty,"Ordered 20 but delivered 18: billed on delivered qty, balance must not be billed twice later",20 / 18,
+medium,delivery D2.planned_date,Delivery is after the invoice date but is marked received; its items are billed as already delivered,15/11/2026,
+medium,delivery D3.received_by,No receiver - goods not confirmed delivered (balance 2 rolls pending (handwritten)),,
+medium,signatures.prepared_by,Blank,,
+medium,signatures.checked_by,Blank,,
+medium,signatures.customer_signature,Blank,,
+low,totals.discount,Discount base includes the delivery charge - confirm the discount is meant to apply to services too,,
+low,line 6 (Delivery charge),Charged 1 trip but the delivery table shows 3 trips,1.0,3
+low,document.delivery_to,Delivery address is in Ajman but prices only include delivery inside Sharjah - check the delivery charge,,
+low,stamp,Supplier stamp present but customer signature blank,,
+info,document.po_no,Arabic-Indic digits in an ID - normalise before matching to the PO system,NK/PO/٢٠٢٦/٣٨٩,NK/PO/2026/389
+info,line 3 (Washed sand).qty_ordered,"Arabic-Indic digits, normalised",٢٤,24.0
+info,line 3 (Washed sand).qty_delivered,"Arabic-Indic digits, normalised",٢٤,24.0
+info,line 5 (Waterproofing membrane).qty_ordered,"Arabic-Indic digits, normalised",٢٠,20.0
+info,line 5 (Waterproofing membrane).qty_delivered,"Arabic-Indic digits, normalised",١٨,18.0
+info,terms.due_date,Due date implied by terms,,2026-12-29 (EN) / 2026-12-14 (AR)

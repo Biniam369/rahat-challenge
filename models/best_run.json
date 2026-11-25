@@ -1,0 +1,18 @@
+{
+  "name": "word_1-2gram",
+  "run_id": "4af8fed0dd5b4ca295c894af5edcc4bd",
+  "cfg": {
+    "features": "word",
+    "word_ngram": [
+      1,
+      2
+    ],
+    "C": 10.0
+  },
+  "cv_macro_f1": 0.7415238095238095,
+  "cv_macro_f1_std": 0.13168174373334013,
+  "test_macro_f1": 0.6774603174603173,
+  "test_accuracy": 0.6470588235294118,
+  "n_train": 51,
+  "n_test": 17
+}

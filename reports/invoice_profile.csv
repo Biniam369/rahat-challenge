@@ -1,0 +1,109 @@
+﻿field,value,type,digits
+document.title_en,TAX INVOICE & DELIVERY NOTE,text,none
+document.title_ar,فاتورة ضريبية وإشعار تسليم,text,none
+document.invoice_no,WB-2026-11-0457,id,western
+document.invoice_date,14/11/2026,date,western
+document.po_no,NK/PO/٢٠٢٦/٣٨٩,id,arabic
+document.salesman,خالد م.,text,none
+document.delivery_to,مشروع فيلا سكنية - القطعة ٢١٧، منطقة الياسمين، عجمان,text,arabic
+document.payment_methods_ticked[0],Cash,text,none
+document.payment_methods_ticked[1],Credit,text,none
+document.currency,AED,text,none
+supplier.name_en,AL WAHA BUILDING MATERIALS TRADING LLC,text,none
+supplier.name_ar,الواحة لتجارة مواد البناء ذ.م.م,text,none
+supplier.address,"Industrial Area 4, Sharjah, UAE",text,western
+supplier.phone,06 000 0000,id,western
+supplier.trn,100000000000003,id,western
+customer.name_ar,مؤسسة النخيل للمقاولات العامة,text,none
+customer.trn,100000000000817,id,western
+sections[0].name_en,Site A - Foundation,text,none
+sections[0].name_ar,الموقع أ - الأساسات,text,none
+sections[0].items[0].line,1,number,none
+sections[0].items[0].description_en,Portland cement 50 kg,text,western
+sections[0].items[0].description_ar,أسمنت بورتلاند ٥٠ كجم,text,arabic
+sections[0].items[0].unit,كيس,text,none
+sections[0].items[0].qty_ordered,120,number,western
+sections[0].items[0].qty_delivered,120,number,western
+sections[0].items[0].unit_price,18.50,number,western
+sections[0].items[0].amount,"2,220.00",number,western
+sections[0].items[1].line,2,number,none
+sections[0].items[1].description_en,Rebar 12 mm,text,western
+sections[0].items[1].description_ar,حديد تسليح ١٢ مم,text,arabic
+sections[0].items[1].unit,طن,text,none
+sections[0].items[1].qty_ordered,4,number,western
+sections[0].items[1].qty_delivered,4,number,western
+sections[0].items[1].unit_price,"2,750.00",number,western
+sections[0].items[1].amount,"11,000.00",number,western
+sections[0].items[2].line,3,number,none
+sections[0].items[2].description_en,Washed sand,text,none
+sections[0].items[2].description_ar,رمل مغسول,text,none
+sections[0].items[2].unit,m³,text,none
+sections[0].items[2].qty_ordered,٢٤,number,arabic
+sections[0].items[2].qty_delivered,٢٤,number,arabic
+sections[0].items[2].unit_price,65.00,number,western
+sections[0].items[2].amount,"1,650.00",number,western
+sections[0].subtotal_printed,"14,870.00",number,western
+sections[1].name_en,Site B - Walls & roof,text,none
+sections[1].name_ar,الموقع ب - الجدران والسقف,text,none
+sections[1].items[0].line,4,number,none
+sections[1].items[0].description_en,Concrete block 20 cm,text,western
+sections[1].items[0].description_ar,بلوك خرساني ٢٠ سم,text,arabic
+sections[1].items[0].unit,حبة,text,none
+sections[1].items[0].qty_ordered,"1,500",number,western
+sections[1].items[0].qty_delivered,"1,500",number,western
+sections[1].items[0].unit_price,3.20,number,western
+sections[1].items[0].amount,"4,800.00",number,western
+sections[1].items[1].line,5,number,none
+sections[1].items[1].description_en,Waterproofing membrane,text,none
+sections[1].items[1].description_ar,رول عزل مائي,text,none
+sections[1].items[1].unit,رول,text,none
+sections[1].items[1].qty_ordered,٢٠,number,arabic
+sections[1].items[1].qty_delivered,١٨,number,arabic
+sections[1].items[1].unit_price,145.00,number,western
+sections[1].items[1].amount,"2,610.00",number,western
+sections[1].items[2].line,6,number,none
+sections[1].items[2].description_en,Delivery charge,text,none
+sections[1].items[2].description_ar,رسوم التوصيل,text,none
+sections[1].items[2].unit,رحلة,text,none
+sections[1].items[2].qty_ordered,1,number,western
+sections[1].items[2].qty_delivered,1,number,western
+sections[1].items[2].unit_price,350.00,number,western
+sections[1].items[2].amount,350.00,number,western
+sections[1].subtotal_printed,"7,760.00",number,western
+totals_printed.total_before_discount,"22,630.00",number,western
+totals_printed.discount_label,Discount 2% on Site B,text,western
+totals_printed.discount,(155.20),number,western
+totals_printed.taxable_amount,"22,474.80",number,western
+totals_printed.vat_rate,5%,number,western
+totals_printed.vat_amount,"1,131.50",number,western
+totals_printed.grand_total,"23,606.30",number,western
+amount_in_words_ar,فقط ثلاثة وعشرون ألفاً وستمائة وستون درهماً وثلاثون فلساً لا غير,text,none
+deliveries[0].delivery,D1,text,western
+deliveries[0].items,"1, 2, 3",number,western
+deliveries[0].planned_date,12/11/2026,date,western
+deliveries[0].driver,راشد,text,none
+deliveries[0].vehicle,SHJ 3 - 45120,id,western
+deliveries[0].received_by,م. سعيد,text,none
+deliveries[0].note,,missing,none
+deliveries[1].delivery,D2,text,western
+deliveries[1].items,"4, 6",number,western
+deliveries[1].planned_date,15/11/2026,date,western
+deliveries[1].driver,راشد,text,none
+deliveries[1].vehicle,SHJ 3 - 45120,id,western
+deliveries[1].received_by,م. سعيد,text,none
+deliveries[1].note,,missing,none
+deliveries[2].delivery,D3,text,western
+deliveries[2].items,5,number,western
+deliveries[2].planned_date,31/11/2026,date,western
+deliveries[2].driver,يوسف,text,none
+deliveries[2].vehicle,AJM 8 - 7781,id,western
+deliveries[2].received_by,,missing,none
+deliveries[2].note,balance 2 rolls pending (handwritten),text,western
+terms_en,Payment due within 45 days of invoice date. Goods once delivered are not returnable. Prices include delivery inside Sharjah only.,text,western
+terms_ar,يستحق الدفع خلال ٣٠ يوماً من تاريخ الفاتورة. البضاعة المسلمة لا ترد. الأسعار تشمل التوصيل داخل الشارقة فقط.,text,arabic
+signatures.prepared_by,,missing,none
+signatures.checked_by,,missing,none
+signatures.customer_signature,,missing,none
+stamp.present,True,bool,none
+stamp.text,AL WAHA TRADING SHARJAH,text,none
+stamp.position,next to the customer signature box; signature itself is blank,text,none

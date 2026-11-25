@@ -1,0 +1,154 @@
+{
+  "document": {
+    "title_en": "TAX INVOICE & DELIVERY NOTE",
+    "title_ar": "فاتورة ضريبية وإشعار تسليم",
+    "invoice_no": "WB-2026-11-0457",
+    "invoice_date": "2026-11-14",
+    "po_no": "NK/PO/٢٠٢٦/٣٨٩",
+    "salesman": "خالد م.",
+    "delivery_to": "مشروع فيلا سكنية - القطعة ٢١٧، منطقة الياسمين، عجمان",
+    "payment_methods_ticked": [
+      "Cash",
+      "Credit"
+    ],
+    "currency": "AED"
+  },
+  "supplier": {
+    "name_en": "AL WAHA BUILDING MATERIALS TRADING LLC",
+    "name_ar": "الواحة لتجارة مواد البناء ذ.م.م",
+    "address": "Industrial Area 4, Sharjah, UAE",
+    "phone": "06 000 0000",
+    "trn": "100000000000003"
+  },
+  "customer": {
+    "name_ar": "مؤسسة النخيل للمقاولات العامة",
+    "trn": "100000000000817"
+  },
+  "sections": [
+    {
+      "name_en": "Site A - Foundation",
+      "name_ar": "الموقع أ - الأساسات",
+      "items": [
+        {
+          "line": 1,
+          "description_en": "Portland cement 50 kg",
+          "description_ar": "أسمنت بورتلاند ٥٠ كجم",
+          "unit": "كيس",
+          "qty_ordered": 120.0,
+          "qty_delivered": 120.0,
+          "unit_price": 18.5,
+          "amount": 2220.0,
+          "amount_printed": 2220.0
+        },
+        {
+          "line": 2,
+          "description_en": "Rebar 12 mm",
+          "description_ar": "حديد تسليح ١٢ مم",
+          "unit": "طن",
+          "qty_ordered": 4.0,
+          "qty_delivered": 4.0,
+          "unit_price": 2750.0,
+          "amount": 11000.0,
+          "amount_printed": 11000.0
+        },
+        {
+          "line": 3,
+          "description_en": "Washed sand",
+          "description_ar": "رمل مغسول",
+          "unit": "m³",
+          "qty_ordered": 24.0,
+          "qty_delivered": 24.0,
+          "unit_price": 65.0,
+          "amount": 1560.0,
+          "amount_printed": 1650.0
+        }
+      ],
+      "subtotal": 14780.0,
+      "subtotal_printed": 14870.0
+    },
+    {
+      "name_en": "Site B - Walls & roof",
+      "name_ar": "الموقع ب - الجدران والسقف",
+      "items": [
+        {
+          "line": 4,
+          "description_en": "Concrete block 20 cm",
+          "description_ar": "بلوك خرساني ٢٠ سم",
+          "unit": "حبة",
+          "qty_ordered": 1500.0,
+          "qty_delivered": 1500.0,
+          "unit_price": 3.2,
+          "amount": 4800.0,
+          "amount_printed": 4800.0
+        },
+        {
+          "line": 5,
+          "description_en": "Waterproofing membrane",
+          "description_ar": "رول عزل مائي",
+          "unit": "رول",
+          "qty_ordered": 20.0,
+          "qty_delivered": 18.0,
+          "unit_price": 145.0,
+          "amount": 2610.0,
+          "amount_printed": 2610.0
+        },
+        {
+          "line": 6,
+          "description_en": "Delivery charge",
+          "description_ar": "رسوم التوصيل",
+          "unit": "رحلة",
+          "qty_ordered": 1.0,
+          "qty_delivered": 1.0,
+          "unit_price": 350.0,
+          "amount": 350.0,
+          "amount_printed": 350.0
+        }
+      ],
+      "subtotal": 7760.0,
+      "subtotal_printed": 7760.0
+    }
+  ],
+  "totals_printed": {
+    "total_before_discount": 22630.0,
+    "discount": 155.2,
+    "taxable_amount": 22474.8,
+    "vat_amount": 1131.5,
+    "grand_total": 23606.3
+  },
+  "totals_recalculated": {
+    "total_before_discount": 22540.0,
+    "discount": 155.2,
+    "taxable_amount": 22384.8,
+    "vat_amount": 1119.24,
+    "grand_total": 23504.04
+  },
+  "deliveries": [
+    {
+      "delivery": "D1",
+      "items": "1, 2, 3",
+      "planned_date": "12/11/2026",
+      "driver": "راشد",
+      "vehicle": "SHJ 3 - 45120",
+      "received_by": "م. سعيد",
+      "note": null
+    },
+    {
+      "delivery": "D2",
+      "items": "4, 6",
+      "planned_date": "15/11/2026",
+      "driver": "راشد",
+      "vehicle": "SHJ 3 - 45120",
+      "received_by": "م. سعيد",
+      "note": null
+    },
+    {
+      "delivery": "D3",
+      "items": "5",
+      "planned_date": "31/11/2026",
+      "driver": "يوسف",
+      "vehicle": "AJM 8 - 7781",
+      "received_by": null,
+      "note": "balance 2 rolls pending (handwritten)"
+    }
+  ]
+}
