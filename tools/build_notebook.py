@@ -50,9 +50,12 @@ puts each line item into **cement / steel / aggregates / blocks / services**, se
 """)
 
 code("""
-import os, sys, subprocess, json, time
+import os, sys, subprocess, json, time, warnings
 from pathlib import Path
 import requests
+
+warnings.filterwarnings("ignore")              # keep library warnings out of the outputs
+os.environ["MLFLOW_DISABLE_AGENT_HINT"] = "1"
 
 IN_COLAB = "google.colab" in sys.modules
 if IN_COLAB:
