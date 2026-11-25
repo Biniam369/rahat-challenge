@@ -408,11 +408,6 @@ if not IN_COLAB:
 else:
     print("Servers still running for the demo.")
 """)
-md("""
-**Demo checklist:** (1) the MLflow run chart and table in §4 → open the MLflow UI → Compare the 3 runs;
-(2) the live `/predict` call on the 6 invoice lines in §6 → open `/docs` → Try it out → Execute.
-The response carries the MLflow `run_id`, so every prediction can be traced back to the run that made the model.
-""")
 
 nb = {"cells": cells, "metadata": {
     "kernelspec": {"display_name": "Python 3", "language": "python", "name": "python3"},
